@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+/* font-family: 'Lato', sans-serif; */
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+/* font-family: 'Montserrat', sans-serif; */
+.header-nav{
+  margin: auto;
+  padding: 10px;
+  justify-content: center;
+  text-align: center;
+  color:white;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: small;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.container {
+  background-color: rgb(212, 229, 235);
+    display: grid;
+    grid-template-rows: 65px 92vh;
+    grid-template-columns: 0.2fr 1fr;
+}
+
+.header {
+    background: #473268;
+    grid-column: 1/-1;
+}
+
+
+
+.left-div {
+    /* border: 1px solid white; */
+   
+    display: flex;
+    flex-basis: 50%;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+.right-div {
+    /* border: 1px solid yellow; */
+    display: flex;
+    flex-basis: 50%;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+
+.sidebar {
+    background-color: lightgray;
+    overflow:auto;
+}
+
+.main-content {
+    /* background-color: red;*/ 
+    overflow:auto;
+}
+
+/* CSS of Side Bar Starts Here */
+.js-doc-heading {
+    font-family: 'Lato', sans-serif;
+    padding: 5px;
+    font-size: 1.3em;
+    font-weight: 900;
+    border-bottom: 1px solid rgb(226, 219, 219);
+    box-shadow: -1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+    text-align: center;
+}
+
+.sidebar ul li a {
+    list-style: none;
+    text-decoration: none;
+    color :black;
+    font-family: 'Lato', sans-serif;
+    padding: 5px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: capitalize;
+    
+
+}
+
+.sidebar ul li {
+    text-align: center;
+    border-radius: 5px;
+    margin: 7px;
+    box-shadow: inset 1px 0px 5px 0px rgba(50, 50, 50, 0.75);
+    background-color: rgb(128, 190, 128);
+}
+
+.sidebar ul li:hover {
+    box-shadow: -1px -1px 5px 0px rgba(50, 50, 50, 0.75);
+    transform: scale(1.05);
+}
+
+/* CSS of Main Content Starts Here */
+.main-section>header {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3em;
+    font-weight: 800;
+    text-align: center;
+    border-bottom: 1px solid #EAF0F1;
+    text-transform: capitalize;
+}
+
+#main-doc section {
+    border: 1px solid transparent;
+    padding: 10px;
+    margin: 5px 5px;
+    border-radius: 10px;
+    box-shadow: -1px -1px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+#main-doc section article {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 25px;
+    word-spacing: 2px;
+    text-align: left;
+}
+
+
+#main-doc section article code {
+    background-color: #EAF0F1;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 1px;
+    color: black;
+
+}
+/* Media Queries */
+
+
